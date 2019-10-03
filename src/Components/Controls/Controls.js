@@ -7,6 +7,9 @@ const Controls = () => {
   <div>
     <Switch>
       <Route exact path="/" component={Splash}></Route>
+      <Route exact path='/About' component={Splash}></Route>
+      <Route exact path='/Projects' component={Splash}></Route>
+      <Route exact path='/Experience' component={Splash}></Route>
     </Switch>
     
   </div>
