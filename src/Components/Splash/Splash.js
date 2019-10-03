@@ -2,10 +2,12 @@ import React from 'react';
 
 
 const Splash = () => {
-  <main>
-    <img src="" alt=""/>
+  return (
+    <main>
+      {/* <img src="" alt=""/> */}
 
-  </main>
+    </main>
+  )
 }
 
 export default Splash;
