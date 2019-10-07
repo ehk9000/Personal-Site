@@ -1,5 +1,4 @@
 import React from 'react';
-import EkProfile from '../../images/Ek-Profile.jpg';
 
 
 export const Splash = () => {
