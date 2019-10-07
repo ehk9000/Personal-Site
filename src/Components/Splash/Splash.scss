@@ -2,12 +2,14 @@ main {
   display: flex;
   flex-flow: column;
   align-items: center;
+  background: url('../../images/Singularity_HQ.jpg') no-repeat center fixed;
+  background-size: contain;
+  height: 100vh;
 }
 
 
 img {
   height: 416px;
-  border-radius: 48%;
 }
 
 .bio {
@@ -15,7 +17,7 @@ img {
   flex-flow: column;
   text-align: center;
   font-size: 20px;
-  color: #FFF;
+  color: #565264;
   padding: 25px;
 
   p {

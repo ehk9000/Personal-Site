@@ -5,12 +5,9 @@ import EkProfile from '../../images/Ek-Profile.jpg';
 export const Splash = () => {
   return (
     <main>
-      <section >
-        <img src={EkProfile} alt="Profile of Erik Konner" />
-      </section>
       <section className="bio">
-        <h3>Erik Konner</h3>
-        <p>Front End Developer || Former Client Service Associate</p>
+        <h2>Erik Konner</h2>
+        <h3>Front End  Software Engineer  | Former Client Service Associate</h3>
         <p>Denver, CO</p>
       </section>
     </main>
