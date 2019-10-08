@@ -1,16 +1,39 @@
 footer {
+  @include flex-row;
   position: fixed;
   bottom:0;
   width: 100%;
   padding: 75px 0;
-  section {
-    @include flex-row;
-    text-align: center;
-    justify-content: center;
+  justify-content: center;
 
+  section {
+    display: flex;
+    width: auto;
   }
+
   img {
     height: 50px;
-    margin: 0 12px;
+  }
+
+  span {
+    background-color: $primary-color;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px; 
+    text-align: center;
+
+    img {
+      margin-top: 10px;
+      height:30px;
+      width:30px;
+    }
+  }
+}
+
+.footer-links {
+  margin-right: 50px;
+
+  &:last-child {
+    margin-right: 0;
   }
 }

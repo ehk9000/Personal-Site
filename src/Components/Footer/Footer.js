@@ -10,18 +10,22 @@ const Footer = () => {
   return (
     <footer>
       <section>
-        <a href="https://github.com/ehk9000">
+        <a href="https://github.com/ehk9000" className="footer-links">
           <img src={githubIcon} alt="Github Icon"/>
         </a>
-        <a href="https://www.linkedin.com/in/erikkonner/">
+        <a href="https://www.linkedin.com/in/erikkonner/" className="footer-links">
           <img src={linkedInIcon} alt="LinkedIn Icon"/>
         </a>
-        <a href={resume}>
-          <img src={resumeIcon} alt="Resume"/>
-        </a>
-        <a href="mailto:erikkonner@gmail.com">
-          <img src={emailIcon} alt="Email"/>
-        </a>
+        <span className="footer-links">
+          <a href={resume}>
+            <img src={resumeIcon} alt="Resume"/>
+          </a>
+        </span>
+        <span className="footer-links">
+          <a href="mailto:erikkonner@gmail.com">
+            <img src={emailIcon} alt="Email"/>
+          </a>
+        </span>
       </section>
     </footer>
   );
