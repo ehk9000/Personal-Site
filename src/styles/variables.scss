@@ -1,2 +1,9 @@
 $primary-color:#565264;
 $background-color:#F3ECD9;
+
+
+@mixin flex-row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}

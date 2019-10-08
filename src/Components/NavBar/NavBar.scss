@@ -1,7 +1,5 @@
 header {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   justify-content: flex-end;
   padding: 30px 125px;
 
