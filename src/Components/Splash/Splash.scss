@@ -2,19 +2,19 @@ main {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background: url('../../assets/images/Singularity_HQ.jpg') no-repeat center fixed;
-  background-size: contain;
   height: 80vh;
+  width: auto;
 
+  img {
+    position: relative;
+    z-index: -1;
+    height: 60vh;
+    width: auto;
+  }
 
   h3 {
     margin: 8px auto;
   }
-}
-
-
-img {
-  height: 416px;
 }
 
 .bio {

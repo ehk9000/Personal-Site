@@ -1,4 +1,5 @@
 import React from 'react';
+import splashPic from '../../assets/images/Singularity_HQ.jpg';
 
 
 export const Splash = () => {
@@ -8,6 +9,7 @@ export const Splash = () => {
         <h2>Erik Konner</h2>
         <h3>Front End  Software Engineer  | Former Client Service Associate</h3>
         <p>Denver, CO</p>
+      <img src={splashPic} alt="SplashPage Pic"/>
       </section>
     </main>
   )
