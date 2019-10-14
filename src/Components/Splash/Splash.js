@@ -7,9 +7,9 @@ export const Splash = () => {
     <main>
       <section className="bio">
         <h2>Erik Konner</h2>
-        <h3>Front End  Software Engineer  | Former Client Service Associate</h3>
+        <h3>Front End  Software Engineer | Former Client Service Associate</h3>
         <p>Denver, CO</p>
-      <img src={splashPic} alt="SplashPage Pic"/>
+        <img src={splashPic} alt="SplashPage Pic"/>
       </section>
     </main>
   )
