@@ -17,13 +17,13 @@ const Footer = () => {
           <img src={linkedInIcon} alt="LinkedIn Icon"/>
         </a>
         <span className="footer-links">
-          <a href={resume}>
-            <img src={resumeIcon} alt="Resume"/>
+          <a href="mailto:erikkonner@gmail.com">
+            <img src={emailIcon} alt="Email"/>
           </a>
         </span>
         <span className="footer-links">
-          <a href="mailto:erikkonner@gmail.com">
-            <img src={emailIcon} alt="Email"/>
+          <a href={resume}>
+            <img src={resumeIcon} alt="Resume"/>
           </a>
         </span>
       </section>
