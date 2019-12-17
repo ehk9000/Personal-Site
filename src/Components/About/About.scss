@@ -1,9 +1,7 @@
 .about-wrapper {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   justify-content: space-evenly;
-  padding: 150px;
-
+  padding: 100px;
 }
 
 .about-bio {
