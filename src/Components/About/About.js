@@ -1,11 +1,13 @@
 import React from 'react';
+import ekPic from '../../assets/images/Ek-Profile.jpg';
 
 const About = () => {
   return (
-    <section>
+    <section className="about-wrapper">
+      <img src={ekPic} alt="Picture of Erik Konner" className="prof-pic"/>
       <article className="about-bio">
         <p>Hi! My name is Erik Konner, and I'm a Finance and Customer Service Associate
-           turned Front End Software Engineer.My strengths include React, Redux, problem 
+           turned Front End Software Engineer. My strengths include React, Redux, problem 
            solving, and communication. I'm an empathetic developer who thrives in teams 
            and loves learning new skills.</p>
         <p>At Colorado College I studied Political Science and Economics, and after 
