@@ -1,4 +1,11 @@
 .about-bio {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  width: 50%;
+  text-align: center;
+  align-items: center;
+
+  p {
+    margin-top: 15px;
+  }
 }
