@@ -4,7 +4,7 @@ import ekPic from '../../assets/images/Ek-Profile.jpg';
 const About = () => {
   return (
     <section className="about-wrapper">
-      <img src={ekPic} alt="Picture of Erik Konner" className="prof-pic"/>
+      <img src={ekPic} alt="Erik Konner Profile" className="prof-pic"/>
       <article className="about-bio">
         <p>Hi! My name is Erik Konner, and I'm a Finance, and Customer Service Associate
           turned Front End Software Engineer. My strengths include React, Redux, problem-solving,
@@ -20,9 +20,7 @@ const About = () => {
            what led me to Turing and all the excitement of joining a new industry. </p>
       </article>
     </section>
-
   )
-
 }
 
 export default About;
