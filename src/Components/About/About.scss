@@ -1,7 +1,7 @@
 .about-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 150px;
 
 }
@@ -9,13 +9,13 @@
 .about-bio {
   display: flex;
   flex-direction: column;
-  width: 60em;
+  width: 75%;
   margin-top: 25px;
 
   p {
     margin-top: 15px;
     text-align: center;
-    line-height: 2em;
+    line-height: 2.5em;
     font-size: 16px;
   }
 }
