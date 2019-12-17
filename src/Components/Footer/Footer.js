@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </span>
         <span className="footer-links">
-          <a href={resume}>
+          <a href={resume} target="_blank">
             <img src={resumeIcon} alt="Resume"/>
           </a>
         </span>

@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <section>
-      <article>
+      <article className="About-bio">
         <p>Hi! My name is Erik Konner, and I'm a Finance and Customer Service Associate
            turned Front End Software Engineer.My strengths include React, Redux, problem 
            solving, and communication. I'm an empathetic developer who thrives in teams 
