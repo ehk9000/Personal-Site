@@ -1,5 +1,5 @@
 import React  from 'react';
-import { NavLink, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Splash  from '../Splash/Splash';
 import About from '../About/About';
 
@@ -9,7 +9,7 @@ const Controls = () => {
     <div>
       <Switch>
         <Route exact path="/" component={Splash}></Route>
-        <NavLink to='/About'  activeClassName="active" component={About}></NavLink>
+        <Route exact path='/About' component={About}></Route>
         <Route exact path='/Projects' component={Splash}></Route>
         <Route exact path='/Experience' component={Splash}></Route>
       </Switch>
