@@ -2,16 +2,18 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  margin-top: 25px;
   margin: auto;
+  min-height: 50vh;
 }
 
 .about-bio {
   p {
     margin-top: 15px;
     text-align: justify;
-    line-height: 2.5em;
-    font-size: 16px;
+    line-height: 2.8em;
+    font-size: 1rem;
+    width: 50%;
+    margin: .7rem auto;
   }
 }
 
