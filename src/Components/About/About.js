@@ -3,7 +3,7 @@ import ekPic from '../../assets/images/Ek-Profile.jpg';
 
 const About = () => {
   return (
-    <div >
+    <div>
       <section className="about-wrapper">
         <img src={ekPic} alt="Erik Konner Profile" className="prof-pic"/>
         <article className="about-bio">
