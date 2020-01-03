@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <section className="about-wrapper">
         <img src={ekPic} alt="Erik Konner Profile" className="prof-pic"/>
-        <article className="about-bio">
+        <article className="about-me">
           <p>Hi! My name is Erik Konner, and I'm a Finance, and Customer Service Associate
             turned Front End Software Engineer. My strengths include React, Redux, problem-solving,
             and communication. I'm an empathetic developer who thrives in teams and loves learning 
