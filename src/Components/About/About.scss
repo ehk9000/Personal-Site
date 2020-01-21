@@ -1,9 +1,9 @@
 .about-wrapper {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column ;
   min-height: 50vh;
   width: 50vw;
-  justify-content: center;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -20,9 +20,7 @@
     font-size: .9rem;
     margin: .7rem auto;
   }
-
 }
-
 .prof-pic {
   height: 319px;
   align-self: center;
