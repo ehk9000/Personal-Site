@@ -11,6 +11,8 @@
   padding: 15px;
   margin: 20px;
   align-self: center;
+  border: 2px solid $primary-color;
+  border-radius: 10px;
   p {
     margin-top: 15px;
     text-align: justify;
@@ -18,6 +20,7 @@
     font-size: .9rem;
     margin: .7rem auto;
   }
+
 }
 
 .prof-pic {

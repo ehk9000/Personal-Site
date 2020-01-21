@@ -4,9 +4,9 @@ import ekPic from '../../assets/images/Ek-Profile.jpg';
 const About = () => {
   return (
     <div>
-      <h2>About Me</h2> 
       <section className="about-wrapper">
         <img src={ekPic} alt="Erik Konner Profile" className="prof-pic"/>
+        <h2>About Me</h2> 
         <article className="about-me">
           <p>Hi, my name is Erik Konner. I am a former finance and customer service associate 
             turned software developer. With my customer service and office administration 
