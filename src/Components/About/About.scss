@@ -3,6 +3,7 @@
   flex-direction: column ;
   min-height: 50vh;
   width: 50vw;
+  padding-top: 50px;
   justify-content: space-between;
   margin: auto;
 }
@@ -10,6 +11,7 @@
 .about-me {
   padding: 15px;
   margin: 20px;
+  margin-top: 30px;
   align-self: center;
   border: 2px solid $primary-color;
   border-radius: 10px;
@@ -20,6 +22,10 @@
     font-size: .9rem;
     margin: .7rem auto;
   }
+}
+
+h2 {
+  margin: 10px;
 }
 .prof-pic {
   height: 319px;
